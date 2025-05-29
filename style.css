@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('agrinho.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: white;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    
+}
+
+.titulo {
+    font-family: "Alkatra", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.about, .gallery {
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.images img {
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 8px rgb(0, 0, 0);
+    margin-top: 300px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 400px;
+}
